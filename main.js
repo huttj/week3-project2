@@ -23,6 +23,13 @@ ADVANCED TRACK: 10-13
 // 1. Without using Math.min(), write a function called minimum() that takes two numbers
 //    and outputs the smaller number.
 
+function min(a,b) {
+	if (a < b) {
+		return a;
+	}
+	return b;
+}
+
 // 2. Create a new function called minimum3() to find the smallest of three numbers.
 
 // 3. Declare a function called sum() that takes an array of numbers as an argument adds them together.
